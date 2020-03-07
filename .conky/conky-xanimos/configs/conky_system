@@ -14,11 +14,11 @@ conky.config = {
 -- ------------------------- Position
 	alignment = 'bottom_right',
 
-	minimum_width = 215, 
-	minimum_height = 165,
-	maximum_width = 215,
-	gap_x = 670,
-	gap_y = 50,
+	minimum_width = 400, 
+	minimum_height = 330,
+	maximum_width = 400,
+	gap_x = 805,
+	gap_y = 0,
 
 -- ------------------------- Font
 	use_xft = true,

@@ -13,11 +13,11 @@ conky.config = {
 -- ------------------------- Position
 	alignment = 'bottom_right',
 
-	minimum_width = 255,
-	minimum_height = 165,
-	maximum_width = 255,
-	gap_x = 870,
-	gap_y = 50,
+	minimum_width = 400,
+	minimum_height = 330,
+	maximum_width = 400,
+	gap_x = 1215,
+	gap_y = 0,
 
 -- ------------------------- Font
 	use_xft = true,
@@ -45,8 +45,8 @@ conky.config = {
 
 conky.text = [[
 ${voffset 8}${GOTO 50}${font Monofur:bold:size=18}File System${font}
-${voffset 10}${GOTO 50}${font}Read: ${font Monofur:size=8}${diskio_read}${GOTO 160}${font}Write: ${font Monofur:size=8}${diskio_write}
-${voffset 45}${GOTO 80}${font}/: ${color0}${font Monofur:size=8}${fs_used /}${color} | ${font Monofur:size=8}${fs_size /}
+${voffset 10}${GOTO 50}${font}Read: ${font Monofur:size=8}${diskio_read}${GOTO 230}${font}Write: ${font Monofur:size=8}${diskio_write}
+${voffset 105}${GOTO 80}${font}/: ${color0}${font Monofur:size=8}${fs_used /}${color} | ${font Monofur:size=8}${fs_size /}
 ${voffset 5}${GOTO 60}${font}/home: ${color0}${font Monofur:size=8}${fs_used /home}${color} | ${font Monofur:size=8}${fs_size /home}
 ${image ~/.conky/conky-xanimos/img/files.png -p 0,5}
 ]];

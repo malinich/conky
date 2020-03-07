@@ -20,7 +20,7 @@ require 'cairo'
 gauge = {
 {
     name='fs_used_perc',            arg='/',                  max_value=100,
-    x=135,                          y=180,
+    x=205,                          y=250,
     graph_radius=110,
     graph_thickness=5,
     graph_start_angle=-60,
@@ -41,7 +41,7 @@ gauge = {
 },
 {
     name='fs_used_perc',            arg='/home',                  max_value=100,
-    x=135,                          y=180,
+    x=205,                          y=250,
     graph_radius=110,
     graph_thickness=5,
     graph_start_angle=-60,

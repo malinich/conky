@@ -13,11 +13,11 @@ conky.config = {
 -- ------------------------- Position
 	alignment = 'bottom_right',
 
-	minimum_width = 550, 
-	minimum_height = 100,
-	maximum_width = 550,
-	gap_x = 5,
-	gap_y = 225,
+	minimum_width = 700, 
+	minimum_height = 130,
+	maximum_width = 700,
+	gap_x = -200,
+	gap_y = 325,
 
 -- ------------------------- Font
 	use_xft = true,
@@ -41,5 +41,5 @@ conky.config = {
 };
 
 conky.text = [[
-${color}${font GE Inspira:pixelsize=90}${time %H:%M}${font}${voffset -70}${offset 100}${color0}${font GE Inspira:pixelsize=42}${time %d} ${voffset -0}${color}${font GE Inspira:pixelsize=30}${time  %B} ${time %Y}${font}${voffset 18}${font GE Inspira:pixelsize=42}${offset -212}${time %A}${font}
+${color}${font GE Inspira:pixelsize=90}${time %H:%M}${font}${voffset  -60}${offset 50}${color0}${font GE Inspira:pixelsize=42}${time %d} ${voffset -0}${color}${font GE Inspira:pixelsize=30}${time  %B} ${time %Y}${font}${voffset 18}${font GE Inspira:pixelsize=42}${offset -212}${time %A}${font}
 ]];

@@ -13,11 +13,11 @@ conky.config = {
 -- ------------------------- Position
 	alignment = 'bottom_right',
 
-	minimum_width = 235,
-	minimum_height = 165,
-	maximum_width = 235,
-	gap_x = 430,
-	gap_y = 50,
+	minimum_width = 400,
+	minimum_height = 330,
+	maximum_width = 400,
+	gap_x = 415,
+	gap_y = 0,
 
 -- ------------------------- Font
 	use_xft = true,
@@ -51,8 +51,8 @@ conky.config = {
 conky.text = [[
 ${voffset 8}${GOTO 50}${font Monofur:bold:size=18}CPU${font}
 ${voffset 10}${GOTO 50}${font}Avg use: ${font Monofur:size=8}${color1}${cpu cpu0}%${alignr}${color}${font}Freq: ${font Monofur:size=8}${color1}${freq_g} Ghz${color}
-${color}${font Monofur:bold:size=8}${GOTO 50}Core:${GOTO 90}1${offset 6}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu1}%${voffset -1}${color}${font}${GOTO 127}2${offset 6}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu2}%${voffset -1}${color}${font}${GOTO 164}3${offset 6}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu3}%${voffset -1}${color}${font}${GOTO 201}4${offset 6}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu4}%${voffset -1}${color}${font Monofur:size=8}
-${GOTO 50}${cpugraph cpu0 15,185 0EA794 0EA794}
+${voffset 5}${color}${font Monofur:bold:size=8}${GOTO 50}Core:${GOTO 120}1${offset 10}${color1}${font Monofur:size=6}${voffset 0}${cpu cpu1}%${voffset -2}${color}${font}${GOTO 187}2${offset 10}${color1}${font Monofur:size=6}${voffset 0}${cpu cpu2}%${voffset -2}${color}${font}${GOTO 255}3${offset 15}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu3}%${voffset -1}${color}${font}${GOTO 321}4${offset 15}${color1}${font Monofur:size=6}${voffset -1}${cpu cpu4}%${voffset -1}${color}${font Monofur:size=8}
+${voffset 5}${GOTO 0}${cpugraph cpu0 25,375 0EA794 0EA794 -0.75 -l}
 ${template0 0 1}
 ${template0 1 2}
 ${template0 2 3}

@@ -16,7 +16,7 @@ conky.config = {
 	minimum_width = 100, 
 	minimum_height = 30,
 	gap_x = 45,
-	gap_y = 10,
+	gap_y = 15,
 
 -- ------------------------- Font
 	use_xft = true,
@@ -38,5 +38,5 @@ conky.config = {
 };
 
 conky.text = [[
-${font GE Inspira:bold:pixelsize=30}${color}Linux ${color0}Mint${color}.
+${font GE Inspira:bold:pixelsize=30}${color}Linux ${color0}UBUNTU${color}.
 ]];
